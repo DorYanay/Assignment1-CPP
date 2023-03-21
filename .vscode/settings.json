@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "adptarray.h": "c",
+        "book.h": "c",
+        "string.h": "c"
+    }
+}
