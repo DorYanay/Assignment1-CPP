@@ -49,7 +49,7 @@ Result SetAdptArrayAt(PAdptArray pArr, int idx, PElement pNewElem)
     if ((pArr->pElemArr)[idx] != NULL)
     {
         pArr->delFunc((pArr->pElemArr)[idx]);
-    };
+    }
     (pArr->pElemArr)[idx] = pArr->copyFunc(pNewElem);
 
     if (idx >= pArr->ArrSize)
